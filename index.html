@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Formulario Shoes</title>
 </head>
 <body>
@@ -20,50 +20,65 @@
         </nav>
     </header>
     <main>
+       
         <section class="formulario">
             <h1>Faça parte do nosso time</h1>
             <div class="inf-formulario"> 
-                <form >
+                <form class="button">
                     <label for="nome">Nome</label><br>
                     <input type="text" id="nome" name="nome">
                     <br>
                     <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email">
-                    <br>
-                    <label for="tel">Telefone</label><br>
+                    <input type="email" name="email" id="email"><br>
+                   <label for="tel">Telefone</label><br>
                     <input type="tel" name="tel" id="tel">
-                    <br>
-                    <label >Departamentos</label><br>
+                    </form>
+                    <form class="inf-segundo">
+                    <label >Departamentos</label>
                     <select name="dep" id="dep">
-                            <option value="finaceiro">Finaceiro</option>
+                        <option>Selecionar</option>    
+                        <option value="finaceiro">Finaceiro</option>
                             <option value="sac">SAC</option>
                             <oPtion value="Moda">Moda</OPtion>
                             <option value="TI">TI</option>
-                    </select><br>
-                    <label >Disponibilidade</label><br>
-                    <input type="checkbox" id="int" name="dis" value="integral(8h)"><label for="int">integral(8h)</label>
-                    <input type="checkbox" id="meio" name="dis" value="meio periodo"> <label for="meio">Meio Período(4h)</label>
-                    <input type="checkbox" id="free" name="dis" value="freelancer"> <label for="free">Freelancer</label>
-                    <br><br>
-                    <label >Qual a melhor forma para entrarmos em contato com você?</label>
-                    <br>
+                    </select> </form>
+                    <label >Disponibilidade</label> 
+                     <form class="inf-terceira">
+                    <label for="int">integral(8h)</label><input type="checkbox" id="int" name="dis" value="integral(8h)">
+                    <label for="meio">Meio Período(4h)</label><input type="checkbox" id="meio" name="dis" value="meio periodo"> 
+                    <label for="free">Freelancer</label><input type="checkbox" id="free" name="dis" value="freelancer"> 
+                </form>
+                   <label >Qual a melhor forma para entrarmos em contato com você?</label>
+                    <form class="inf-quarta">
+                   
                     <input type="radio" name="contato" id="contato" value="email"><label for="contato">Email</label>
                     <input type="radio" name="contato" id="contato" value="ligacao"><label for="contato">Ligação</label>
                     <input type="radio" name="contato" id="contato" value="whatsApp"><label for="contato">WhatsApp</label>
-                    <br><br>
-                    <label >Mensagem</label><br>
-                    <textarea name="mens" id="mens" cols="30" rows="10"></textarea><br>
-                    <br>
-                    <label>Curriculo</label><button>Upload</button> <br><br>
-                    <button>Enviar</button>
                 </form>
+                    <label >Mensagem</label>
+                    <form class="inf-quinta">
+                    
+                    <textarea name="mens" id="mens" cols="30" rows="10"></textarea><br>
+                 </form>   
+                 <form class="botoes">
+                    <div class="bt-upload">
+                    <label>Curriculo</label><button>Upload</button></div> <br>
+                <div class="bt-enviar">
+                    <button>Enviar</button></div></form>
+                
 
             </div>
         </section>
-        <div class="inf-paragrafo"> <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+        <section class="inf-paragrafo">
+        <div> <p>  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
              Necessitatibus, blanditiis pariatur. 
              Cumque, quod voluptates aliquid error iusto cum quidem asperiores facere non,
-              eius ea id omnis excepturi sed? Tenetur, necessitatibus!</p></div>
+              <p><br> eius ea id omnis excepturi sed? Tenetur, necessitatibus!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, suscipit voluptatem, esse quod, perferendis ut facilis nam inventore aspernatur cum animi dolore deleniti. 
+            Quod suscipit perferendis</p><br> minus laborum? Doloremque, esse. 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, voluptatibus dolorem officiis eaque, repellat nihil tempora alias modi excepturi mollitia odit, dolore repudiandae
+             labore cumque dolor temporibus perspiciatis magnam? Reiciendis.
+            </p></div> </section>
     </main>
     <footer>
         <div class="rodape">
