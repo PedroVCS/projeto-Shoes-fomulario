@@ -48,10 +48,12 @@ main {
 
 .formulario h1{
     display: flex;
-    font-size: 28px;
+    font-size:50px;
     text-align: center;
-    flex-direction: column;
-   width: 400px;
+    color: #575757;;
+    justify-content: flex-start;
+    
+
    
 
 }
@@ -59,17 +61,14 @@ main {
 .inf-formulario{
     
     display: flex;
-    margin: 5rem;
+    margin: 1rem;
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 45px;
     line-height: 21px;
     color: #9B9B9B;
     flex-direction: column;
-
-        
-
 }
 .button input{
     font-size: 25px;
@@ -77,15 +76,13 @@ main {
 .inf-paragrafo{
     display: flex;
    margin-top: 180px;
-   /* width: 950px;
-   height: 800px; */
    font-size: 38px;
    font-family: 'Open Sans', sans-serif;
    line-height: 45px;
     text-align: justify;
     color: #575757;
- width: 950px;
- height: 900px;
+   width: 950px;
+   height: 900px;
 
 }
 
@@ -167,6 +164,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     color: #FFFFFF;
+    font-size: 18px;
 }
 
 .rodape{
@@ -178,8 +176,9 @@ footer{
 }
 .rodape p{
   text-align: center;
-  width: 150px;
-  height: 100px;
+  width: 250px;
+  height: 200px;
+  line-height: 22px;
 }
 footer nav a {
    color: #FFFFFF;
