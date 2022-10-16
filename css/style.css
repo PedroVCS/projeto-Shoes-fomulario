@@ -73,7 +73,8 @@ main {
     flex-direction: column;
 }
 .button input{
-    font-size: 25px;
+    font-size: 35px;
+    color: #9B9B9B;
 }
 .inf-paragrafo{
     display: flex;
@@ -91,8 +92,8 @@ main {
 input{
     border-color: #9B9B9B;
     
-    width: 538px;
-    height: 26px;   
+    width: 900px;
+    height: 55px;   
     left: 123px;
     top: 294px;
 }
@@ -102,58 +103,71 @@ input{
     .inf-segundo select{
     display: flex;
     flex-direction: column;
-    width: 538px;
-    height: 36px;   
+    width: 900px; 
+    height: 55px;   
     left: 123px;
     top: 294px;
-    font-size: 22px;
+    font-size: 35px;
     color: #9B9B9B;
     border-color: #9B9B9B;
+   text-align: center;
     
 }
+
 
 .inf-terceira{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 650px;
+    width: 680px;
    height: 60px;
    font-size:19px;
    text-align: justify;
    
  
 }
+.inf-terceira label{
+    font-size: 26px;
+    
+}
+.inf-terceira input{
+ width: 40px;
+}
 
 .inf-quarta{
     display: flex;
-    width: 500px;
+    width: 600px;
     height: 60px;
     font-size: 19px;
     align-items: center;
     color: #777777;
+    font-size: 25px;
 }
+
+
 .inf-quinta textarea{
     width: 536.64px;
-height: 78px;
+height: 195px;
 left: 123px;
 top: 681px;
-
+font-size: 25px;
 background: #FFFFFF;
+border-color: #9B9B9B;
 
 }
 .bt-upload button{
-    width: 135px;
-    height: 30px;
+    width: 215px;
+    height: 45px;
     left: 213px;
     top: 781px;
     background: #C4C4C4;
     border-color: #C4C4C4;
     color: #FFFFFF;
-    font-size: 17px;
+    font-size: 20px;
 }
 .bt-enviar button{
-    width: 537px;
-    height: 45px;
+    width: 745px;
+    height: 70px;
     color: #FFFFFF;
     font-size: 25px;
     background: #C2185B;
