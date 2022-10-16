@@ -71,7 +71,9 @@ main {
         
 
 }
-
+.button input{
+    font-size: 25px;
+}
 .inf-paragrafo{
     display: flex;
    margin-top: 180px;
@@ -102,10 +104,10 @@ input{
     display: flex;
     flex-direction: column;
     width: 538px;
-    height: 26px;   
+    height: 36px;   
     left: 123px;
     top: 294px;
-    font-size: 18px;
+    font-size: 22px;
     color: #9B9B9B;
     border-color: #9B9B9B;
     
@@ -122,6 +124,7 @@ input{
    
  
 }
+
 .inf-quarta{
     display: flex;
     width: 500px;
@@ -140,17 +143,47 @@ background: #FFFFFF;
 
 }
 .bt-upload button{
-    width: 118px;
-    height: 21px;
+    width: 135px;
+    height: 30px;
     left: 213px;
     top: 781px;
-    background: #C4C4C4
+    background: #C4C4C4;
+    border-color: #C4C4C4;
+    color: #FFFFFF;
+    font-size: 17px;
 }
 .bt-enviar button{
     width: 537px;
-height: 33px;
-left: 123px;
-top: 824px;
+    height: 45px;
+    color: #FFFFFF;
+    font-size: 25px;
+    background: #C2185B;
+    border-color: #C2185B;
+}
 
-background: #C2185B;
+footer{
+    display: flex;
+    background-color: #C2185B;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFFFFF;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 5rem;
+}
+.rodape p{
+  text-align: center;
+  width: 150px;
+  height: 100px;
+}
+footer nav a {
+   color: #FFFFFF;
+    text-decoration: none;
+    display: flexbox;
+    padding: 2rem;
 }
