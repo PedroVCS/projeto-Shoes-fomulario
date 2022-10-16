@@ -164,7 +164,7 @@ footer{
     align-items: center;
     justify-content: space-evenly;
     color: #FFFFFF;
-    font-size: 18px;
+    font-size:25px;
 }
 
 .rodape{
@@ -178,7 +178,7 @@ footer{
   text-align: center;
   width: 250px;
   height: 200px;
-  line-height: 22px;
+  line-height: 35px;
 }
 footer nav a {
    color: #FFFFFF;
