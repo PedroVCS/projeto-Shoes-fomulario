@@ -19,6 +19,8 @@ header{
 header > nav{
     display: flex;
     align-items: center;
+    font-size: 40px;
+    font-weight: bold;
 }
 header > nav > ul{
     display: flex;
